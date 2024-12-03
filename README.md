@@ -1,8 +1,8 @@
-###⚖️ Lawyer and Programmer
+### ⚖️ Lawyer and Programmer
 
 Hello! I am Ricardo Alexandro Mena, a passionate lawyer who ventured into the world of programming. I use my unique combination of legal and technological skills to create innovative solutions.
 
-### 🌟 Technologies:
+### 🌟 Technologies and Tools:
 
 JavaScript 🟨
 Node.js🚀
@@ -13,6 +13,7 @@ HTML5 🌐
 CSS3 🎨
 Git 🔧
 PHP 🐘
+Others
 
 ### Soft Skills:
 
