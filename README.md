@@ -1,6 +1,6 @@
-### ⚖️ Lawyer and Programmer
+### 🖥️ Software developer | Lawyer 
 
-Hello! I am Ricardo Alexandro Mena, a passionate lawyer who ventured into the world of programming. I use my unique combination of legal and technological skills to create innovative solutions.
+Hello! I am Ricardo Alexandro Mena, 👨‍💻 Passionate about creating innovative and personalized technological solutions, I combine my experience as a lawyer and entrepreneur with my dedication to software development. This combination allows me to deeply understand customer needs and translate them into applications that really impact their business.
 
 ### 🌟 Technologies and Tools:
 
