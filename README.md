@@ -36,6 +36,6 @@ English (B1)
 Email: ricardoamena@gmail.com 📧
 LinkedIn: www.linkedin.com/in/ricardo-alexandro-mena-956a92257 🔗
 
-### 🌐 Visit my personal website: www.ricardomena.com 🌍
+### 🌐 Visit my personal website: www.ricardoamena.com 🌍
 
 🚀 Let's create something amazing together!
