@@ -68,7 +68,7 @@ const ricardoMena = {
 <p align="center">
     📧 Email: <a href="mailto:ricardoamena@gmail.com">ricardoamena@gmail.com</a><br>
     🔗 LinkedIn: <a href="https://www.linkedin.com/in/ricardo-alexandro-mena-956a92257">Ricardo Mena</a><br>
-    🌐 Website: <a href="https://www.ricardoamena.com">ricardoamena.com</a>
+    🌐 Website: <a href="https://ricardoamena.com">ricardoamena.com</a>
 </p>
 
 <div align="center">
