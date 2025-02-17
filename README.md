@@ -63,7 +63,7 @@ const ricardoMena = {
 };
 ```
 
-## 📫 Let's Connect & Collaborate!
+<h2 align="center">📫 Let's Connect & Collaborate!</h2>
 
 <p align="center">
     📧 Email: <a href="mailto:ricardoamena@gmail.com">ricardoamena@gmail.com</a><br>
