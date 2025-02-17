@@ -1,0 +1,121 @@
+<svg width="800" height="180" viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Gradiente de fondo principal -->
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#0A192F;stop-opacity:1">
+                <animate attributeName="stop-color" 
+                    values="#0A192F;#112240;#0A192F" 
+                    dur="8s" repeatCount="indefinite"/>
+            </stop>
+            <stop offset="100%" style="stop-color:#112240;stop-opacity:1">
+                <animate attributeName="stop-color" 
+                    values="#112240;#0A192F;#112240" 
+                    dur="8s" repeatCount="indefinite"/>
+            </stop>
+        </linearGradient>
+
+        <!-- Gradiente para acentos -->
+        <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#64FFDA;stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:#00B4D8;stop-opacity:1"/>
+        </linearGradient>
+
+        <!-- Efecto de brillo -->
+        <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+
+        <!-- Máscara para efecto de typing -->
+        <mask id="typingMask">
+            <rect width="800" height="180" fill="white"/>
+            <rect width="0" height="180" fill="black">
+                <animate 
+                    attributeName="width"
+                    values="0;290"
+                    dur="2.5s"
+                    repeatCount="indefinite"
+                    calcMode="linear"/>
+            </rect>
+        </mask>
+    </defs>
+
+    <!-- Fondo base -->
+    <rect width="800" height="180" fill="url(#bgGradient)"/>
+
+    <!-- Elementos decorativos de fondo -->
+    <g opacity="0.1">
+        <path d="M0,50 Q200,0 400,50 T800,50" stroke="url(#accentGradient)" fill="none" stroke-width="1">
+            <animate attributeName="d" 
+                values="M0,50 Q200,0 400,50 T800,50;
+                        M0,60 Q200,10 400,60 T800,60;
+                        M0,50 Q200,0 400,50 T800,50" 
+                dur="8s" repeatCount="indefinite"/>
+        </path>
+        <path d="M0,100 Q200,50 400,100 T800,100" stroke="url(#accentGradient)" fill="none" stroke-width="1">
+            <animate attributeName="d" 
+                values="M0,100 Q200,50 400,100 T800,100;
+                        M0,110 Q200,60 400,110 T800,110;
+                        M0,100 Q200,50 400,100 T800,100" 
+                dur="7s" repeatCount="indefinite"/>
+        </path>
+    </g>
+
+    <!-- Texto principal con efecto typing -->
+    <g filter="url(#glow)" mask="url(#typingMask)">
+        <text x="50" y="70" font-family="Monaco, Consolas, monospace" font-size="28" fill="#64FFDA">
+            Hello, I'm Ricardo
+        </text>
+    </g>
+
+    <!-- Cursor parpadeante -->
+    <rect x="290" y="45" width="2" height="30" fill="#64FFDA">
+        <animate attributeName="opacity"
+            values="1;0;1"
+            dur="0.8s"
+            repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Full Stack Developer texto con animación de fade -->
+    <g filter="url(#glow)">
+        <text x="50" y="110" font-family="Monaco, Consolas, monospace" font-size="32" fill="#CCD6F6" opacity="0">
+            Full Stack Developer
+            <animate attributeName="opacity" 
+                values="0;1" 
+                dur="1s" 
+                begin="2.5s" 
+                fill="freeze"/>
+        </text>
+    </g>
+
+    <!-- Elementos decorativos tipo código -->
+    <g font-family="Monaco, Consolas, monospace" font-size="14" fill="#8892B0" opacity="0.6">
+        <text x="420" y="40">&lt;developer&gt;</text>
+        <text x="420" y="140">&lt;/developer&gt;</text>
+    </g>
+
+    <!-- Símbolos de código animados -->
+    <g transform="translate(650, 90)" fill="#64FFDA">
+        <g opacity="0">
+            <path d="M20,0 L0,15 L20,30" stroke="#64FFDA" fill="none" stroke-width="2"/>
+            <path d="M40,0 L60,15 L40,30" stroke="#64FFDA" fill="none" stroke-width="2"/>
+            <animate attributeName="opacity" 
+                values="0;0.8" 
+                dur="1s" 
+                begin="2s" 
+                fill="freeze"/>
+        </g>
+    </g>
+
+    <!-- Línea decorativa inferior -->
+    <path d="M50,150 L750,150" stroke="url(#accentGradient)" stroke-width="1" opacity="0">
+        <animate attributeName="opacity" 
+            values="0;0.5" 
+            dur="1s" 
+            begin="2.5s" 
+            fill="freeze"/>
+    </path>
+</svg>
