@@ -1,7 +1,7 @@
 <div align="center">
     <img src="banner.svg" width="800" height="200" alt="profile banner">
     <h1>Ricardo Alexandro Mena</h1>
-    <h3>💻 Software Developer | ⚖️ Lawyer</h3>
+    <h3>💻 Software Developer Full Stack</h3>
 </div>
 
 <p align="center">
