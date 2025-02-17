@@ -61,6 +61,7 @@ const ricardoMena = {
     ],
     passions: ['Technology', 'Innovation', 'Problem Solving']
 };
+```
 
 ## 📫 Let's Connect & Collaborate!
 
