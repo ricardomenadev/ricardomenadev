@@ -17,7 +17,7 @@ I'm **Ricardo**, a **Full Stack & AI Engineer** from **Charata, Chaco, Argentina
 
 I own products **end to end** — from the data model and the API to the screen people actually work in, and the server it runs on. Since **2022** I've delivered software and AI solutions for **30+ business clients** in retail, distribution, fintech and e‑commerce, mostly **multi‑tenant SaaS**.
 
-Before code I graduated as a **lawyer** and worked as an **entrepreneur**, so I start with how the business really works, talk directly with the people who use what I build, and ship in small slices.
+I start with how the business really works, talk directly with the people who use what I build, and ship in small slices.
 
 - 🧠 **AI is core leverage:** Claude Code with custom skills is my main workflow — and I review everything before it ships
 - 🤖 LLM features in production: agents with tool calling, RAG, MCP servers, vision and voice
@@ -76,7 +76,6 @@ Before code I graduated as a **lawyer** and worked as an **entrepreneur**, so I 
 
 | | |
 |---|---|
-| ⚖️ **Law Degree (Abogado)** | Universidad Nacional del Nordeste (UNNE) |
 | 💻 **Diploma in Full Stack Web Development** | UTN — Facultad Regional Resistencia |
 | 🐍 **Diploma in Web Development with Python, Django & MySQL** | Informatorio Chaco · 2023 |
 
